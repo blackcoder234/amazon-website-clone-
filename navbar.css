@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial;
+}
+
+/* -------------------------------------Navbar------------------------------------------------------------------------------------------------------- */
+
+.navbar {
+    height: 55px;
+    background-color: #10161e;
+    color: white;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* align-content: center; */
+}
+
+ul {
+    list-style-type: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+ input:focus{
+    outline: none;
+}
+select:focus{
+    outline: none;
+}
+
+.logo-container {
+    height: 40px;
+    width: 92px;
+    border: 2px solid transparent;
+}
+
+.logo-container:hover {
+    border: 2px solid white;
+}
+
+.logo {
+    background-image: url('/images/logos/amazon_logo2.png');
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 1.5px solid transparent;
+    padding: 4px 6px 0px 6px;
+    margin-top: 4px;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    padding: 4px 6px 0px 6px;
+    cursor: pointer;
+}
+
+/* Address and location icon */
+
+.address-first {
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 14px;
+}
+
+.address-second {
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 4px;
+}
+
+.address-icon {
+    display: flex;
+    align-items: center;
+    color: #cccccc;
+}
+
+/* search panel */
+
+.nav-search-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    /* background-color: rgb(233, 185, 80); */
+    width: 900px;
+    border-radius: 4px;
+    height: 40px;
+    border: 1px solid transparent;
+    /* margin-left: 8px; */
+}
+
+.nav-search-bar:hover{
+    border: 1px solid #faab44;
+    border-radius: 4px;
+}
+
+.search-items {
+    background-color: #e6e6e6;
+    width: 50px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.search-items:hover {
+    background-color: rgb(175, 175, 175);
+}
+
+.search-input-bar {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-input-bar:active{
+    border: inherit;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.search-icon:hover {
+    background-color: #e29530;
+}
+
+/* Language Section */
+
+.nav-language {
+    background-color: #d6d6d603;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+    /* padding: 3px; */
+}
+
+.flag {
+    width: 16.2px;
+    height: 21.6px;
+}
+
+.flag-items {
+    width: 15px;
+    height: 18px;
+    font-size: 14px;
+    background-color: #ffffff11;
+    color: white;
+}
+
+.flag-icon {
+    /* padding: 6px 0px 0px 2px; */
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+/* sign in text */
+.sign-in-text {
+    width: 114px;
+    height: 40px;
+    align-self: center;
+}
+
+.first-text {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.sec-text {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.arrow-icon {
+    font-size: 12px;
+}
+
+/* return & order */
+.rt-or-text {
+    height: 40px;
+    width: 70px;
+    align-self: center;
+}
+
+/* cart Item */
+.nav-cart {
+    width: 70px;
+    height: 30px;
+    align-self: center;
+}
+
+.cart-icon {
+    font-size: 30px;
+    color: white;
+}
+
+/* ----------------------------------------------------- Menubar ----------------------------------------------------------------------------------------------------- */
+
+.menu-border {
+    border: 1.4px solid transparent;
+    padding: 8px 5px 8px 5px;
+}
+
+.menu-border:hover {
+    border: 1.4px solid white;
+    cursor: pointer;
+}
+
+.menubar {
+    height: 38px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.menubar-icon {
+    display: flex;
+    align-items: center;
+    border: 1.4px solid transparent;
+    padding: 8px 5px 8px 5px;
+    margin-left: 13px;
+}
+
+.menubar-icon:hover {
+    border: 1.4px solid white;
+    cursor: pointer;
+}
+
+.icon-text {
+    margin-left: 6px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.menu-items {
+    height: 39px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+.right-menu {
+    width: 400px;
+    visibility: hidden;
+    display: flex;
+}
+
+
