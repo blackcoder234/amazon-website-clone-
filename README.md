@@ -12,4 +12,5 @@
 
 📌📌 Preview of this 🌐website is in the bellow
 
-![image](https://github.com/user-attachments/assets/d65cf725-38b3-4cdd-be08-977972f58d6e)
+
+<img src="https://github.com/user-attachments/assets/d65cf725-38b3-4cdd-be08-977972f58d6e" width="400">
